@@ -1,0 +1,89 @@
+/* Add your CSS styles here */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+  width: calc(100% - 22px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  padding: 8px 16px;
+  background-color: #fd82b5;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #cf3a78;
+}
+
+.card {
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #343a40;
+}
+
+.task {
+  margin-bottom: 10px;
+}
+
+.task label {
+  margin-left: 8px;
+}
+
+.resultadoBusqueda {
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+.sub{
+    text-shadow: #cf3a78;
+    font-weight: bold;
+    font-size:15px;
+}
+
+.titulo{
+    text-shadow: #cf3a78;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+#Buscar{
+    margin-top:80px;
+    font-weight: bolder;
+}

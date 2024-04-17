@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP03</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <form id="cardForm">
+            <label for="Titulo" class="titulo"> Titulo del proyecto</label>
+            <input type="text" id="Titulo" required>
+            <label for="Descripcion" class="sub"> Descripcion</label>
+            <input type="text" id="Descripcion"  class="sub">
+            <label for="vencimiento" class="sub"> Fecha de vencimiento: </label>
+            <input type="date" id="vencimiento">
+
+            <button type="submit"> Agregar proyecto</button>
+        </form>
+        <form id="IngresarTarea">
+            <label for="TituloTarea" class="titulo"> Titulo de la Tarea</label>
+                <input type="text"  id="TituloTarea" required>
+            <label for="Fecha" class="sub"> Fecha de Vencimiento</label>
+                <input type="date" id="FechaTarea">
+            <label for="Descripcion" class="sub"> Descripción</label>
+                <input type="text" id="Descripcion_">
+            <label for="Proyecto">Elegí un poryecto: </label>
+                <select id="OpcionesProyecto" name="Proyecto"> </select>
+
+            <button type="submit"> Agregar tarea</button>
+        </form>             
+
+        <div id="Mostrar">
+            <div class="tareas"></div>
+        </div>
+
+        <form id="Buscar">
+            Buscá los proyectos con las mismas fechas de vencimiento:
+            <input type="date" id="fechaElegida" required>
+            <button type="submit"> Buscar</button>
+        </form>
+
+        <div class="resultadoBusqueda"></div>
+
+</body>
+</html>
